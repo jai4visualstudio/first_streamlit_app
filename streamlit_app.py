@@ -39,5 +39,5 @@ streamlit.dataframe(my_data_row)
 fruit_add = streamlit.text_input('What fruit would you like to add?','banana')
 streamlit.write('The user entered ', fruit_add)
 import requests
-fruityvice_response = requests.get("Thanks for adding:")
+streamlit.write("Thanks for adding:", fruit_add)
 
